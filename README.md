@@ -25,6 +25,5 @@ Note: you can add more than one filter for the table. Each time you enter a new 
 ![shape_date](https://user-images.githubusercontent.com/30487641/136999858-76cf2111-a27c-4a58-b6aa-9689f66c9d6a.PNG)
 
 
-
-
 ## Summary
+One drawback of this design is that there is not a message displayed when the table filters return an empty table. A fix for that would be to output a message to the user to assure them that the app is workign properly and the table is empty for those filters. Another issue is the appearance of filtered vs non-filtered elements is not super obvious. Currently the filed is grey with a placeholder when no filter is added, and it turns black and a little bolder when added. A solution could be to change the color of the background when a filter is applied. That would make it easier to see which fileds have a filter on.
